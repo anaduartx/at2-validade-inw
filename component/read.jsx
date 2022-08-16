@@ -39,7 +39,7 @@ const show = async(id)=>{
     setContatoUnico({...resultado.data(),id:resultado.id})
     setProduto(contatoUnico.produto)
     setValidade(contatoUnico.validade)
-    //setMostrar(true)
+    setMostrar(true)
   }
   
 }
